@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar"
+
 function App(){
   return(
     <div>
-      Atmik Shetty's Portfolio!!!
+      <Navbar />
     </div>
   )
 }
