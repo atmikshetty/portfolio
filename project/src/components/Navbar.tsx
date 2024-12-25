@@ -1,5 +1,3 @@
-import Link from "react-scroll";
-
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-black text-white shadow-lg z-50">
@@ -7,19 +5,21 @@ const Navbar = () => {
         <div className="text-xl font-bold">Logo</div>
 
         <div className="flex space-x-3">
-          {["About Me", "Experience", "Skills", "Projects", "Contacts"].map(
-            (item, idx) => (
-              <Link
-              key={idx}
-              to={item.toLowerCase().replace(/\s+/g, "")}
-              smooth={true}
-              duration={500}
-              className="cursor-pointer hover:text-gray-400"
-              >
-              {item}
-              </Link>
-            )
-          )}
+          <a href="#aboutme" className="cursor-pointer hover:text-gray-400">
+            About Me
+          </a>
+          <a href="#experience" className="cursor-pointer hover:text-gray-400">
+            Experience
+          </a>
+          <a href="#skills" className="cursor-pointer hover:text-gray-400">
+            Skills
+          </a>
+          <a href="#projects" className="cursor-pointer hover:text-gray-400">
+            Projects
+          </a>
+          <a href="#contacts" className="cursor-pointer hover:text-gray-400">
+            Contact Me
+          </a>
         </div>
       </div>
     </nav>
