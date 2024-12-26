@@ -30,8 +30,8 @@ const skills: Skill[] = [
 
 const Skills = () => {
   return(
-    <div>
-      <h2>Skills</h2>
+    <div className="py-8 px-5">
+      <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
 
       <div className="flex flex-wrap justify-center gap-6">
         {skills.map((skill, index) => (
