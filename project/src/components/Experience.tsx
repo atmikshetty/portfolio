@@ -68,6 +68,7 @@ const ExperienceCard = ({experience} : {experience: Experience}) => {
 const Experiences = () => {
     return (
         <div className="max-w-4xl mx-auto py-10">
+            <h2 className="text-3xl font-bold mb-6 text-center">Experience</h2>
             {experiences.map((experience, index) => (
                 <ExperienceCard key={index} experience={experience} />
             ))}
