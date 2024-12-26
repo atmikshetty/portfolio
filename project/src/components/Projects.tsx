@@ -34,35 +34,48 @@ const projectsData: Project[] = [
 
 const ProjectCard = ({project} : {project: Project}) => {
     return (
-        <div>
-            <div>
-                <h3>{project.title}</h3>
+        <div className="bg-gray-900 text-white rounded-xl p-6 mb-6 shadow-lg border border-purple-500">
+            <div className="flex justify-between items-center">
+                <h3 className="text-2xl font-bold text-yellow-300">{project.title}</h3>
                 {project.link && (
                     <a 
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className=""
+                    className="text-sm text-teal-400"
                     >
                         {project.link.includes("github") ? (
-                            <span>github Logo</span>
+                            <span className="text-2xl">github Logo</span>
                         ): (
-                            <span>🔗</span>
+                            <span className="text-2xl">🔗</span>
                         )}
                     </a>
                 )}
             </div>
 
-            <p>
-                <div>
+                <p className="text-sm text-teal-400 mt-2">{project.description}</p>
+            
+                <div className="mt-4 flex flex-wrap gap-2">
                     {project.technologies.map((tech, index) => (
-                        <span>
+                        <span key={index} className="bg-teal-600 text-white px-3 py-1 rounded-full text-sm">
                             {tech}
                         </span>
                     ))}
                 </div>
-            </p>
+            
         </div>
     )
 }
 
+const Projects = () => {
+    return(
+        <div className="max-w-6xl mx-auto py-10">
+            <h2 className="text-4xl font-bold mb-6 text-center text-green-400">Project</h2>
+            {projectsData.map((project, index) => (
+                <ProjectCard key={index} project={project} />
+            ))}
+        </div>
+    )
+}
+
+export default Projects;
