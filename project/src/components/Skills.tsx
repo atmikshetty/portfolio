@@ -1,4 +1,5 @@
 import React from "react";
+import 'devicon/devicon.min.css';
 
 // defining the structure 
 interface Skill {
