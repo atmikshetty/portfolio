@@ -11,19 +11,19 @@ const projectsData: Project[] = [
     description:
       "Stuttering Detection and Speech Therapy AI",
     technologies: ["PyTorch", "LLAMA 3.1", "FAISS"],
-    link: "",
+    link: "https://github.com/atmikshetty/Phonic_Forge",
   },
   {
     title: "InVigilator",
     description: "AI Proctoring Tool",
     technologies: ["OpenCV, MediaPipe"],
-    link: "",
+    link: "https://github.com/atmikshetty/In-Vigilator",
   },
   {
     title: "Online Voting System",
     description: "Voting System Developed for student council elections in college.",
     technologies: ["Java, MySql"],
-    link: "",
+    link: "https://github.com/atmikshetty/Online-Voting-System-JAVA",
   },
   {
     title: "Public Speaking Helper",
