@@ -33,14 +33,14 @@ const Skills = () => {
     <div>
       <h2>Skills</h2>
 
-      <div>
+      <div className="flex flex-wrap justify-center gap-6">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className=""
+            className={`flex items-center gap-3 px-4 py-2 rounded-lg ${skill.bgColor} shadow-md`}
           >
-            <div>{skill.icon}</div>
-            <span>{skill.name}</span>
+            <div className="text-4xl">{skill.icon}</div>
+            <span className="text-xl font-medium">{skill.name}</span>
           </div>
         ))}
       </div>
