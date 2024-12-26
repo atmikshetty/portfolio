@@ -27,4 +27,24 @@ const skills: Skill[] = [
     { name: "Git", icon: <i className="devicon-git-plain"></i>, bgColor: "bg-orange-200" },
   ];
 
-  
+const Skills = () => {
+  return(
+    <div>
+      <h2>Skills</h2>
+
+      <div>
+        {skills.map((skill, index) => (
+          <div
+            key={index}
+            className=""
+          >
+            <div>{skill.icon}</div>
+            <span>{skill.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default Skills;
