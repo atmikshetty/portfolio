@@ -12,7 +12,7 @@ const Aboutme = () => {
 
             <div className="max-w-md text-center md:text-left">
                 <h2 className="text-4xl font-bold mb-4">A little bit about myself...</h2>
-                <p className="text-lg leading-relaxed">
+                <p className="text-xl leading-relaxed">
                 Hi! I am an AI researcher, machine learning engineer, and backend engineer with a passion for building scalable, intelligent systems. I specialize in developing innovative solutions using state-of-the-art technologies and enjoy tackling challenging problems at the intersection of AI and software engineering.
                 </p>
             </div>
@@ -21,4 +21,4 @@ const Aboutme = () => {
     )
 }
 
-export default Aboutme;
+export default Aboutme; 
