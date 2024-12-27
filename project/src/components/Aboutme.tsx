@@ -1,6 +1,6 @@
 const Aboutme = () => {
     return(
-        <section id="#aboutme" className="min-h-screen bg-gray-900 text-white flex flex-col md:flex-row items-center justify-center p-8">
+        <section id="#aboutme" className="min-h-screen flex flex-col md:flex-row items-center justify-center p-8">
 
             <div className="mb-8 md:mb-0 md:mr-28">
                 <img 
