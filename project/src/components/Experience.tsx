@@ -30,18 +30,18 @@ const experiences: Experience[] = [
 
 const ExperienceCard = ({experience} : {experience: Experience}) => {
     return(
-        <div className="bg-gray-900 text-white rounded-xl p-6 mb-6 shadow-lg border border-purple-500">
+        <div className="rounded-xl p-6 mb-6 shadow-lg border border-black">
 
             <div className=" flex justify-between items-center"> 
-                <h3 className="text-2xl font-bold text-yellow-300">{experience.company}</h3>
-                <span className="text-sm text-teal-400">{experience.location}</span>
+                <h3 className="text-2xl font-bold">{experience.company}</h3>
+                <span className="text-sm">{experience.location}</span>
             </div>
 
-            <h4 className="text-xl font-semibold text-purple-300 mt-2">{experience.position}</h4>
-            <p className="text-sm text-teal-400">{experience.duration}</p>
+            <h4 className="text-xl font-semibold ">{experience.position}</h4>
+            <p className="text-sm ">{experience.duration}</p>
 
             {/* description */}
-            <ul className="list-disc pl-5 mt-4 space-y-2 text-gray-300">
+            <ul className="list-disc pl-5 mt-4 space-y-2 ">
                 {experience.description.map((point, index) => (
                     <li key={index}>{point}</li>
                 ))}
@@ -52,7 +52,7 @@ const ExperienceCard = ({experience} : {experience: Experience}) => {
                 {experience.skills.map((skill, index) => (
                     <span
                         key={index}
-                        className="bg-teal-600 text-white px-3 py-1 rounded-full text-sm"
+                        className="bg-black text-white px-3 py-1 rounded-full text-sm"
                     >
                         {skill}
                     </span>
