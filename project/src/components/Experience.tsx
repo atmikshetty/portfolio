@@ -59,93 +59,79 @@ const experiences: Experience[] = [
         ]
     }, 
     {
-        company: "SimPPL",
-        position: "Research Engineer",
-        location: "Boston, Massachusetts, United States",
-        duration: "June 2024-Present",
+        company: "IIT Patna",
+        position: "Research Assistant",
+        location: "Patna, Bihar, India",
+        duration: "June 2024-July 2024",
         description: [
-            "Developed and implemented data collection pipelines for social media platforms, utilizing proxy servers, AWS S3, and EC2 to ensure efficient and scalable data retrieval.",
-            "Processed and analyzed collected data for multimodal analysis, leveraging advanced models like Vision Transformers and LLaMA 3.2 Vision for enhanced insights.",
-            "Dockerized applications to facilitate consistent development, deployment, and scalability across different environments.",
-            "Implemented scripts for automated tests on processed data, ensuring reliability and efficiency in handling large datasets"
+            "Fine tuning Open Source Visual Language Models to analyse Satellite Images",
+            "Pre-processed and created Alpaca format dataset for LLMs fine-tuning",
+            "Developed accident detection and explanation model using Qwen2-7B and LLAMA3-8B",
+            "Successfully integrated with vector database and improved inferencing speed by implementing UnSloth AI"
         ],
         skills: [
-            "Python",
-            "PyTorch",
+            "LangChain ",
+            "Weavite ",
             "Google Cloud Platform",
-            "Aws"
+            "Large Language Models (LLM)"
         ]
     }, 
     {
-        company: "SimPPL",
-        position: "Research Engineer",
-        location: "Boston, Massachusetts, United States",
-        duration: "June 2024-Present",
+        company: "Ignitus",
+        position: "Research Intern",
+        location: "Pittsburgh, Pennsylvania, United States",
+        duration: "March 2024-May 2024",
         description: [
-            "Developed and implemented data collection pipelines for social media platforms, utilizing proxy servers, AWS S3, and EC2 to ensure efficient and scalable data retrieval.",
-            "Processed and analyzed collected data for multimodal analysis, leveraging advanced models like Vision Transformers and LLaMA 3.2 Vision for enhanced insights.",
-            "Dockerized applications to facilitate consistent development, deployment, and scalability across different environments.",
-            "Implemented scripts for automated tests on processed data, ensuring reliability and efficiency in handling large datasets"
+            "Created low-resolution versions of images and normalized them.",
+            "Downscaled high-resolution images to provide sufficient training data for the model.",
+            "Implemented batch processing to manage memory and speed up training by dividing the data into manageable batches.",
+            "Developed an SRCNN model where the first layer extracts feature maps from low-resolution images, the second layer maps them into a high-dimensional space, and the final layer reconstructs the images from these high-dimensional features.",
+            "Achieved an SSIM score of 96%, enhancing the clarity of remote sensing applications."
         ],
         skills: [
             "Python",
             "PyTorch",
-            "Google Cloud Platform",
-            "Aws"
+            "OpenCV",
+            "AWS Rekognition",
+            "AWS SageMaker",
+            "Generative Adversarial Networks (GANs)"
         ]
     }, 
     {
-        company: "SimPPL",
-        position: "Research Engineer",
-        location: "Boston, Massachusetts, United States",
-        duration: "June 2024-Present",
+        company: "D'BUGGED Programmers",
+        position: "Software Developer",
+        location: "Mumbai, Maharashtra, India",
+        duration: "Nov 2023-April 2024",
         description: [
-            "Developed and implemented data collection pipelines for social media platforms, utilizing proxy servers, AWS S3, and EC2 to ensure efficient and scalable data retrieval.",
-            "Processed and analyzed collected data for multimodal analysis, leveraging advanced models like Vision Transformers and LLaMA 3.2 Vision for enhanced insights.",
-            "Dockerized applications to facilitate consistent development, deployment, and scalability across different environments.",
-            "Implemented scripts for automated tests on processed data, ensuring reliability and efficiency in handling large datasets"
+            "Led software development projects in Full-Stack Development and Machine Learning on a contract basis with a 100% acceptance rate",
         ],
         skills: [
-            "Python",
-            "PyTorch",
-            "Google Cloud Platform",
-            "Aws"
+            "Django",
+            "Tensorflow",
+            "Exploratory Data Analysis",
+            "React.js",
+            "Scikit-Learn",
+            "Node.js",
+            "MongoDB"
         ]
     }, 
     {
-        company: "SimPPL",
-        position: "Research Engineer",
-        location: "Boston, Massachusetts, United States",
-        duration: "June 2024-Present",
+        company: "EvaluAItor",
+        position: "AI Engineer",
+        location: "Hyderabad, Telangana, India",
+        duration: "Dec 2023-March 2024",
         description: [
-            "Developed and implemented data collection pipelines for social media platforms, utilizing proxy servers, AWS S3, and EC2 to ensure efficient and scalable data retrieval.",
-            "Processed and analyzed collected data for multimodal analysis, leveraging advanced models like Vision Transformers and LLaMA 3.2 Vision for enhanced insights.",
-            "Dockerized applications to facilitate consistent development, deployment, and scalability across different environments.",
-            "Implemented scripts for automated tests on processed data, ensuring reliability and efficiency in handling large datasets"
+            "Led the development of the resume evaluation model using GPT-4 Turbo, which evaluated resumes on various parameters like strengths, weaknesses, phrasing, skills, and qualifications while comparing it with the job description.",
+            "Provided the user with a detailed report regarding their shortcomings, tips to improve them, and scoring for each parameter.",
+            "Improved the accuracy of the theory model by over 90%. Also helped with fine-tuning and testing the model, contributing to its overall optimization and performance enhancement.",
+            "Generated data sets for the theory and resume model, keeping data engineering principles in mind."
         ],
         skills: [
-            "Python",
-            "PyTorch",
+            "Snowflake",
+            "PySpark",
+            "API Testing",
             "Google Cloud Platform",
-            "Aws"
-        ]
-    }, 
-    {
-        company: "SimPPL",
-        position: "Research Engineer",
-        location: "Boston, Massachusetts, United States",
-        duration: "June 2024-Present",
-        description: [
-            "Developed and implemented data collection pipelines for social media platforms, utilizing proxy servers, AWS S3, and EC2 to ensure efficient and scalable data retrieval.",
-            "Processed and analyzed collected data for multimodal analysis, leveraging advanced models like Vision Transformers and LLaMA 3.2 Vision for enhanced insights.",
-            "Dockerized applications to facilitate consistent development, deployment, and scalability across different environments.",
-            "Implemented scripts for automated tests on processed data, ensuring reliability and efficiency in handling large datasets"
-        ],
-        skills: [
-            "Python",
-            "PyTorch",
-            "Google Cloud Platform",
-            "Aws"
+            "Data Analysis"
         ]
     }, 
 ]
