@@ -68,11 +68,201 @@ const skills: Skill[] = [
     ),
   },
   {
+    name: "OpenCV",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg"
+        alt="OpenCV"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
     name: "React",
     icon: (
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
         alt="React"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Next.Js",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+        alt="Next.Js"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Node.Js",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+        alt="Node.js"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Flask",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+        alt="Flask"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "FastAPI",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg"
+        alt="FastAPI"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Git",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+        alt="Git"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Postman",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg"
+        alt="Postman"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Linux",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+        alt="Linux"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Bash",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+        alt="Bash"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Redis",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg"
+        alt="Redis"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "PostgreSQL",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+        alt="PostgreSQL"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "MongoDB",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+        alt="MongoDB"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Firebase",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg"
+        alt="Firebase"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Appwrite",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-original-wordmark.svg"
+        alt="Appwrite"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "AWS",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        alt="AWS"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Google Cloud Platform",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
+        alt="GCP"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Azure",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg"
+        alt="Azure"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Docker",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+        alt="Docker"
+        className="h-8 w-8"
+      />
+    ),
+  },
+  {
+    name: "Kubernetes",
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+        alt="Kubernetes"
         className="h-8 w-8"
       />
     ),
