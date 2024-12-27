@@ -41,15 +41,15 @@ const projectsData: Project[] = [
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div className="bg-gray-900 text-white rounded-xl p-6 mb-6 shadow-lg border border-purple-500">
+    <div className="  rounded-xl p-6 mb-6 shadow-lg border border-black">
       <div className="flex justify-between items-center">
-        <h3 className="text-2xl font-bold text-yellow-300">{project.title}</h3>
+        <h3 className="text-2xl font-bold ">{project.title}</h3>
         {project.link && (
           <a
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-teal-400"
+            className="text-sm "
           >
             {project.link.includes("github") ? (
               <i className="devicon-github-original text-3xl"></i>
@@ -60,13 +60,13 @@ const ProjectCard = ({ project }: { project: Project }) => {
         )}
       </div>
 
-      <p className="text-sm text-teal-400 mt-2">{project.description}</p>
+      <p className="text-sm  mt-2">{project.description}</p>
 
       <div className="mt-4 flex flex-wrap gap-2">
         {project.technologies.map((tech, index) => (
           <span
             key={index}
-            className="bg-teal-600 text-white px-3 py-1 rounded-full text-sm"
+            className="  px-3 py-1 rounded-full text-sm"
           >
             {tech}
           </span>
