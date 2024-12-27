@@ -1,12 +1,12 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./index.css"; 
-import App from "./App.tsx";
+import React, { StrictMode } from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css' // If you have any global styles
 
-createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <div className="app">
       <App />
     </div>
   </StrictMode>
-);
+)

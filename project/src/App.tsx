@@ -1,12 +1,13 @@
-import Aboutme from "./components/Aboutme";
-import Contacts from "./components/Contacts";
-import Experiences from "./components/Experience";
-import Navbar from "./components/Navbar"
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import React from 'react'
+import Navbar from './components/Navbar'
+import Aboutme from './components/Aboutme'
+import Skills from './components/Skills'
+import Experiences from './components/Experience'
+import Projects from './components/Projects'
+import Contacts from './components/Contacts'
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
       <Navbar />
       <Aboutme />
@@ -18,4 +19,4 @@ function App(){
   )
 }
 
-export default App;
+export default App
