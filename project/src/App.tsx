@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Aboutme from './components/Aboutme'
 import Skills from './components/Skills'

@@ -1,12 +1,12 @@
-import React, { StrictMode } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css' // If you have any global styles
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  <React.StrictMode>
     <div className="app">
       <App />
     </div>
-  </StrictMode>
+  </React.StrictMode>
 )
