@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black text-white shadow-lg z-50">
+    <nav className="fixed top-0 left-0 w-full  shadow-lg z-50">
       <div className="max-w-screen-xl mx-auto px-8 flex justify-between items-center h-20">
         <div className="text-2xl font-bold">Logo</div>
 
