@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import logo from '../assets/logo.jpg';
 
 const Navbar = () => {
   const [isScrollingDown, setIsScrollingDown] = useState(false);
@@ -24,13 +25,15 @@ const Navbar = () => {
         isScrollingDown ? "-translate-y-full" : "translate-y-0"
       } ${lastScrollPosition > 50 ? "bg-transparent" : "bg-transparent"}`}
     >
-      <div className="max-w-screen-xl mx-auto px-8 flex justify-between items-center h-20">
-
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 flex justify-between items-center h-20">
         <a href="/" className="text-2xl font-bold">
-          LOGO
+          <Avatar className="w-12 h-12 sm:w-16 sm:h-16">
+            <AvatarImage src={logo} />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
         </a>
 
-        <div className="hidden md:flex text-xl space-x-6">
+        <div className="hidden sm:flex text-xl space-x-6">
           <a href="#aboutme" className="cursor-pointer hover:text-gray-400">
             About Me
           </a>
@@ -46,6 +49,10 @@ const Navbar = () => {
           <a href="#contacts" className="cursor-pointer hover:text-gray-400">
             Contact Me
           </a>
+        </div>
+
+        <div className="sm:hidden">
+          {/* Mobile menu icon goes here */}
         </div>
       </div>
     </div>
