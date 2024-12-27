@@ -1,6 +1,6 @@
 const Contacts = () => {
   return (
-    <div className="flex max-w-6xl mx-auto py-10 items-center justify-between px-10">
+    <div id="contacts" className="flex max-w-6xl mx-auto py-10 items-center justify-between px-10">
       <div className="flex items-center space-x-5">
         <a
           href="https://github.com/atmikshetty"
