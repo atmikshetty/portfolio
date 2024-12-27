@@ -8,21 +8,20 @@ interface Project {
 const projectsData: Project[] = [
   {
     title: "PhonicForge",
-    description:
-      "Stuttering Detection and Speech Therapy AI",
+    description: "Stuttering Detection and Speech Therapy AI",
     technologies: ["PyTorch", "LLAMA 3.1", "FAISS"],
     link: "https://github.com/atmikshetty/Phonic_Forge",
   },
   {
     title: "InVigilator",
     description: "AI Proctoring Tool",
-    technologies: ["OpenCV, MediaPipe"],
+    technologies: ["OpenCV", "MediaPipe"],
     link: "https://github.com/atmikshetty/In-Vigilator",
   },
   {
     title: "Online Voting System",
     description: "Voting System Developed for student council elections in college.",
-    technologies: ["Java, MySql"],
+    technologies: ["Java", "MySql"],
     link: "https://github.com/atmikshetty/Online-Voting-System-JAVA",
   },
   {
@@ -41,15 +40,15 @@ const projectsData: Project[] = [
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div className="  rounded-xl p-6 mb-6 shadow-lg border border-black">
+    <div className="rounded-xl p-6 mb-6 shadow-lg border border-black">
       <div className="flex justify-between items-center">
-        <h3 className="text-2xl font-bold ">{project.title}</h3>
+        <h3 className="text-2xl font-bold">{project.title}</h3>
         {project.link && (
           <a
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm "
+            className="text-sm"
           >
             {project.link.includes("github") ? (
               <i className="devicon-github-original text-3xl"></i>
@@ -60,13 +59,13 @@ const ProjectCard = ({ project }: { project: Project }) => {
         )}
       </div>
 
-      <p className="text-sm  mt-2">{project.description}</p>
+      <p className="text-sm mt-2">{project.description}</p>
 
       <div className="mt-4 flex flex-wrap gap-2">
         {project.technologies.map((tech, index) => (
           <span
             key={index}
-            className="  px-3 py-1 rounded-full text-sm"
+            className="bg-gray-800 text-white px-3 py-1 rounded-full text-sm"
           >
             {tech}
           </span>
@@ -79,11 +78,9 @@ const ProjectCard = ({ project }: { project: Project }) => {
 const Projects = () => {
   return (
     <div id="projects" className="max-w-6xl mx-auto py-10">
-      <h2 className="text-4xl font-bold mb-6 text-center">
-        Projects
-      </h2>
-      <div className="grid sm:grid-cols-2 lg: grid-cols-2 gap-5">
-        {projectsData.map((project, index) => ( 
+      <h2 className="text-4xl font-bold mb-6 text-center">Projects</h2>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {projectsData.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </div>
