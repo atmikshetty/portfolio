@@ -138,16 +138,6 @@ const skills: Skill[] = [
     ),
   },
   {
-    name: "Postman",
-    icon: (
-      <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg"
-        alt="Postman"
-        className="h-8 w-8"
-      />
-    ),
-  },
-  {
     name: "Linux",
     icon: (
       <img
@@ -273,7 +263,7 @@ const skills: Skill[] = [
 const Skills = () => {
   return (
     <div className="py-8 px-5">
-      <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">Top Skills</h2>
 
       <div className="flex flex-wrap justify-center gap-6">
         {skills.map((skill, index) => (
