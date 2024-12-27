@@ -1,4 +1,21 @@
+import { useEffect, useState } from "react";
+
 const Navbar = () => {
+
+  const [isScrollingDown, setIsScrollingDown] = useState(false);
+  const [lastScrollPosition, setLastScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setIsScrollingDown(currentScrollPos > lastScrollPosition && currentScrollPos > 50);
+      setLastScrollPosition(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollPosition]);
+
   return (
     <nav className="fixed top-0 left-0 w-full  shadow-lg z-50">
       <div className="max-w-screen-xl mx-auto px-8 flex justify-between items-center h-20">
