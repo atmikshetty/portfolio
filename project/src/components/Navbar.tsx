@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 const Navbar = () => {
   const [isScrollingDown, setIsScrollingDown] = useState(false);
   const [lastScrollPosition, setLastScrollPosition] = useState(0);
@@ -24,7 +25,10 @@ const Navbar = () => {
       } ${lastScrollPosition > 50 ? "bg-transparent" : "bg-transparent"}`}
     >
       <div className="max-w-screen-xl mx-auto px-8 flex justify-between items-center h-20">
-        <a href="/" className="text-2xl font-bold">Logo</a>
+
+        <a href="/" className="text-2xl font-bold">
+          LOGO
+        </a>
 
         <div className="hidden md:flex text-xl space-x-6">
           <a href="#aboutme" className="cursor-pointer hover:text-gray-400">
