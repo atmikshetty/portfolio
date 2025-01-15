@@ -1,4 +1,4 @@
-# Personal Portfolio.
+# TypeScript Practice for Personal Portfolio.
 
 ## About Me Section.
 ![image](https://github.com/user-attachments/assets/93c35da8-60cb-46d6-ab25-b27412eb7e8a)
