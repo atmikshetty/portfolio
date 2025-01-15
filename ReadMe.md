@@ -1,1 +1,1 @@
-Portfolio project as a practice for React
+Personal Portfolio.
